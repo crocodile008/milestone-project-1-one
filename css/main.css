@@ -1,0 +1,792 @@
+/*--------------------------------------------------------------------------------TEMP STYLES*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+.test-section-1 {
+    height: 100vh;
+    background-color: lightblue;
+}
+
+.test-section-2 {
+    height: 100vh;
+    background-color: pink;
+}
+
+.test-section-3 {
+    height: 100vh;
+    background-color: yellow;
+}
+
+.test-section-4 {
+    height: 100vh;
+    background-color: grey;
+}
+
+.audio-sample {
+
+    background-color: red;
+    height: 100%;
+}
+
+.more-vertical-banner {
+    background-color: white;
+    height: 100%;
+
+
+}
+
+.test-box {
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    margin-top: 10px;
+}
+
+.sizing-test {
+    height: 50vh;
+    width: 50vw;
+
+}
+
+.image-test {
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.height-size {
+    height: 100% !important;
+    padding: 0;
+}
+
+.more {
+    height: 100%;
+    position: relative;
+}
+
+.homepage-more-link {
+    margin-top: 0;
+
+}
+
+
+
+
+/*--------------------------------------------------------------------------------GENERIC STYLES*/
+
+.remove-padding {
+    padding: 0;
+}
+
+.remove-margin {
+    margin: 0;
+}
+
+.remove-margin-padding {
+    margin: 0;
+    padding: 0;
+}
+
+.standard-color-style {
+    color: ghostwhite;
+    letter-spacing: 5px;
+}
+
+.standard-color-style-2 {
+    color: grey;
+    letter-spacing: 5px;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: black;
+}
+
+/*------------------------------------------------------------------------------- GENERAL BUTTON STYLE*/
+
+.homepage-ticket-btn {
+    width: 40%;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: ghostwhite;
+    color: #777;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.homepage-ticket-btn:hover {
+    background-color: lightblue;
+    color: ghostwhite;
+}
+
+.homepage-listen-btn {
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: ghostwhite;
+    color: #777;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.homepage-listen-btn:hover {
+    background-color: lightblue;
+    color: ghostwhite;
+    cursor: pointer;
+}
+
+/*--------------------------------------------------------------------------------NAVBAR*/
+
+.navbar {
+    position: absolute;
+    z-index: 3;
+    width: 100vw;
+    background-color: transparent;
+    border: 0;
+}
+
+.navbar-right {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    font-size: 18px;
+    letter-spacing: 10px;
+    line-height: 2;
+}
+
+.discover-btn {
+    border: 0;
+    background-color: transparent;
+    text-align: center;
+    color: ghostwhite;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+
+.discover-btn:hover {
+    background-color: #f5f5f5;
+    color: ghostwhite;
+}
+
+.open>.dropdown-toggle.btn-primary:focus,
+.open>.dropdown-toggle.btn-primary:hover {
+    color: ghostwhite;
+    background-color: #f5f5f5;
+    border-color: #f5f5f5;
+}
+
+.open>.dropdown-toggle.btn-primary {
+    color: ghostwhite;
+    background-color: #f5f5f5;
+    border-color: #f5f5f5;
+}
+
+.navbar-collapse {
+    margin-top: 50px;
+
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.dropdown-menu {
+    width: 30vw;
+
+}
+
+.dropdown-menu li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5vw;
+    letter-spacing: 5px;
+    color: #777;
+}
+
+.navbar-default .navbar-nav>li>a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    letter-spacing: 5px;
+    color: #777;
+}
+
+.dropdown-menu>li>a:hover {
+    color: #777;
+    text-decoration: none;
+    background-color: lightblue;
+}
+
+.discover-btn:hover {
+    background-color: lightblue;
+    color: ghostwhite;
+}
+
+.navbar-default .navbar-brand {
+    color:ghostwhite;
+}
+
+/*--------------------------------------------------------------------------------FOOTER*/
+
+.footer {
+    height: 60px;
+}
+
+.footer-container {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    background-color: ghostwhite;
+    margin-top: 0;
+}
+
+
+
+.social-media-section {
+    padding: 0px;
+    margin-top: 20px;
+
+}
+
+.twitter-box {
+    text-align: center;
+    font-size: 30px;
+}
+
+.facebook-box {
+    text-align: center;
+    font-size: 30px;
+}
+
+.youtube-box {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.instagram-box {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.fab {
+    color: lightblue;
+}
+
+.fab:hover {
+    text-decoration: none;
+
+}
+
+/*--------------------------------------------------------------------------------HOMEPAGE SECTION 1*/
+
+.homepage-video-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: ghostwhite;
+
+
+
+}
+
+.homepage-video {
+    height: 100% !important;
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    object-fit: fill;
+
+}
+
+.homepage-video-overlay {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.background-wrapper {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.section-1 {
+    height: 80vh;
+    width: 100%;
+    background-color: ghostwhite;
+    position: relative;
+    z-index: 2;
+
+
+
+}
+
+.section-1-background {
+    height: 100%;
+    width: 100%;
+    background-image: url(/assets/images/kings-of-leon-stage.jpg);
+    background-size: 100% 100%;
+    position: relative;
+
+}
+
+.section-1-overlay {
+    position: relative;
+    z-index: 2;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.section-2 {
+    height: 80vh;
+    width: 100%;
+    background-color: red;
+    position: relative;
+    z-index: 2;
+}
+
+.section-2-background {
+    height: 100%;
+    width: 100%;
+    background-image: url(/assets/images/kol-green-wall.jpg);
+    background-size: 100% 100%;
+    position: relative;
+
+}
+
+.section-2-overlay {
+    position: relative;
+    z-index: 2;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+
+
+}
+
+.section-3 {
+    height: 80vh;
+    width: 100%;
+    background-color: blue;
+    position: relative;
+    z-index: 2;
+
+}
+
+.section-3-background {
+    height: 100%;
+    width: 100%;
+    background-image: url(/assets/images/kol-live-grey.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    -webkit-backface-visibility: hidden;
+}
+
+.section-3-overlay {
+    position: relative;
+    z-index: 2;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.section-4 {
+    height: 80vh;
+    width: 100%;
+    background-color: red;
+    position: relative;
+    z-index: 2;
+}
+
+.section-4-background {
+    height: 100%;
+    width: 100%;
+    background-image: url(/assets/images/kol-road.png);
+    background-size: 100% 100%;
+    position: relative;
+
+}
+
+.section-4-overlay {
+    position: relative;
+    z-index: 2;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.script-header {
+    height: 40vh;
+    position: relative;
+}
+
+.script-content {
+
+    color: ghostwhite;
+    font-family: 'Dancing Script', cursive;
+}
+
+/*--------------------------------------------------------------------------------TOUR PAGE*/
+
+.tour-location {
+    height: 100%;
+    width: 100%;
+    background-image: url(/assets/images/dust.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.tour-location-2 {
+    height: 100%;
+    width: 100%;
+    background-image: url(/assets/images/dust2.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.tour-location-3 {
+    height: 100%;
+    width: 100%;
+    background-image: url(/assets/images/dust3.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.tour-location-4 {
+    height: 100%;
+    width: 100%;
+    background-image: url(/assets/images/dust.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.tour-location-5 {
+    height: 100%;
+    width: 100%;
+    background-image: url(/assets/images/dust2.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.tour-date-box {
+    height: 120px;
+    width: 100%;
+    background-color: lightgray;
+    margin-top: 10px;
+    opacity: 0.9;
+}
+
+/*--------------------------------------------------------------------------------LISTEN PAGE*/
+
+.album-box {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.album-cover-image {
+    height: 60%;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.album-container {
+    height: 100%;
+    width: 100%;
+    background-image: url(/assets/images/guitar1.jpg);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.album-container-1 {
+    height: 100%;
+    width: 100%;
+    background-image: url(/assets/images/guitar2.jpg);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.album-container-2 {
+    height: 100%;
+    width: 100%;
+    background-image: url(/assets/images/guitar3.jpg);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.album-container-3 {
+    height: 100%;
+    width: 100%;
+    background-image: url(/assets/images/guitar4.jpg);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.album-container-4 {
+    height: 100%;
+    width: 100%;
+    background-image: url(/assets/images/guitar5.jpg);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.album-container-5 {
+    height: 100%;
+    width: 100%;
+    background-image: url(/assets/images/guitar6.jpg);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.album-container-6 {
+    height: 100%;
+    width: 100%;
+    background-image: url(/assets/images/guitar7.jpg);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.album-container-7 {
+    height: 100%;
+    width: 100%;
+    background-image: url(/assets/images/guitar8.jpg);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.track-listing {
+    text-decoration: none;
+    text-align: left;
+    font-size:18px;
+    font-weight:900;
+
+}
+
+.track-audio-controls {
+    height: 12px;
+}
+
+/*--------------------------------------------------------------------------------MEDIA QUERIES*/
+
+@media only screen and (min-width: 768px) {
+    .section-4-background {
+        height: 100%;
+        width: 100%;
+        background-attachment: fixed;
+        background-image: url(/assets/images/kol-road.png);
+        background-size: 100% 100%;
+        position: relative;
+    }
+    .section-3-background {
+        height: 100%;
+        width: 100%;
+        background-attachment: fixed;
+        background-image: url(/assets/images/kol-live-grey.jpg);
+        background-size: 100% 100%;
+        position: relative;
+
+    }
+    .section-2-background {
+        height: 100%;
+        width: 100%;
+        background-attachment: fixed;
+        background-image: url(/assets/images/kol-green-wall.jpg);
+        background-size: 100% 100%;
+        position: relative;
+
+    }
+    .section-1-background {
+        height: 100%;
+        width: 100%;
+        background-attachment: fixed;
+        background-image: url(/assets/images/kings-of-leon-stage.jpg);
+        background-size: 100% 100%;
+        position: relative;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .tour-location {
+        height: 50vh;
+        width: 100%;
+        background-image: url(/assets/images/whiskey.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .tour-location-2 {
+        height: 50vh;
+        width: 100%;
+        background-image: url(/assets/images/whiskey.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .tour-location-3 {
+        height: 50vh;
+        width: 100%;
+        background-image: url(/assets/images/whiskey.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .tour-location-4 {
+        height: 50vh;
+        width: 100%;
+        background-image: url(/assets/images/whiskey.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .tour-location-5 {
+        height: 50vh;
+        width: 100%;
+        background-image: url(/assets/images/whiskey.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) {
+    .album-container {
+        height: 100%;
+        width: 100%;
+        background-image: url(/assets/images/smoking1.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .album-container-1 {
+        height: 100%;
+        width: 100%;
+        background-image: url(/assets/images/smoking1.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .album-container-2 {
+        height: 100%;
+        width: 100%;
+        background-image: url(/assets/images/smoking1.jpg);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .album-container-3 {
+        height: 100%;
+        width: 100%;
+        background-image: url(/assets/images/smoking1.jpg);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .album-container-4 {
+        height: 100%;
+        width: 100%;
+        background-image: url(/assets/images/smoking1.jpg);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .album-container-5 {
+        height: 100%;
+        width: 100%;
+        background-image: url(/assets/images/smoking1.jpg);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .album-container-6 {
+        height: 100%;
+        width: 100%;
+        background-image: url(/assets/images/smoking1.jpg);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .album-container-7 {
+        height: 100%;
+        width: 100%;
+        background-image: url(/assets/images/smoking1.jpg);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .standard-color-style-2 {
+        color: ghostwhite;
+        letter-spacing: 5px;
+    }
+    .album-box {
+        width: 50%;
+        height: 50vh;
+        margin: 0 auto;
+    }
+    .track-listing {
+    text-decoration: none;
+    text-align: left;
+    font-size:16px;
+    font-weight:200;
+
+}
+}
