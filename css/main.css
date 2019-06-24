@@ -106,6 +106,12 @@ a:hover {
     letter-spacing: 5px;
 }
 
+.standard-color-style-3 {
+    color: ghostwhite;
+    letter-spacing: 5px
+    
+}
+
 button,
 input,
 select,
@@ -114,6 +120,10 @@ textarea {
     font-size: inherit;
     line-height: inherit;
     color: black;
+}
+
+.fifty-height {
+    height: 50px;
 }
 
 /*------------------------------------------------------------------------------- GENERAL BUTTON STYLE*/
@@ -130,7 +140,7 @@ textarea {
 }
 
 .homepage-ticket-btn:hover {
-    background-color: lightblue;
+    background-color: #777;
     color: ghostwhite;
 }
 
@@ -147,7 +157,7 @@ textarea {
 }
 
 .homepage-listen-btn:hover {
-    background-color: lightblue;
+    background-color: #777;
     color: ghostwhite;
     cursor: pointer;
 }
@@ -184,21 +194,21 @@ textarea {
 }
 
 .discover-btn:hover {
-    background-color: #f5f5f5;
+    background-color: #777;
     color: ghostwhite;
 }
 
 .open>.dropdown-toggle.btn-primary:focus,
 .open>.dropdown-toggle.btn-primary:hover {
     color: ghostwhite;
-    background-color: #f5f5f5;
-    border-color: #f5f5f5;
+    background-color: #777;
+    border-color: #777;
 }
 
 .open>.dropdown-toggle.btn-primary {
     color: ghostwhite;
-    background-color: #f5f5f5;
-    border-color: #f5f5f5;
+    background-color: #777;
+    border-color: #777;
 }
 
 .navbar-collapse {
@@ -212,6 +222,7 @@ textarea {
 
 .dropdown-menu {
     width: 30vw;
+    background-color: #777;
 
 }
 
@@ -220,7 +231,28 @@ textarea {
     margin-bottom: 20px;
     font-size: 1.5vw;
     letter-spacing: 5px;
+    color: ghostwhite;
+}
+
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: ghostwhite;
+    white-space: nowrap;
+}
+
+.dropdown-menu>li>a:hover {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
     color: #777;
+    white-space: nowrap;
+    text-decoration: none;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -231,19 +263,33 @@ textarea {
     color: #777;
 }
 
-.dropdown-menu>li>a:hover {
-    color: #777;
-    text-decoration: none;
-    background-color: lightblue;
-}
+
 
 .discover-btn:hover {
-    background-color: lightblue;
+    background-color: #777;
     color: ghostwhite;
 }
 
 .navbar-default .navbar-brand {
-    color:ghostwhite;
+    color: ghostwhite;
+}
+
+.navbar-default .navbar-nav>li>a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    letter-spacing: 5px;
+    color: ghostwhite;
+    background-color: #777;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    letter-spacing: 5px;
+    color: #777;
+    background-color: ghostwhite;
 }
 
 /*--------------------------------------------------------------------------------FOOTER*/
@@ -291,11 +337,13 @@ textarea {
 }
 
 .fab {
-    color: lightblue;
+    color: #777;
+    font-size: 40px;
 }
 
 .fab:hover {
     text-decoration: none;
+    color: #696969;
 
 }
 
@@ -467,6 +515,16 @@ textarea {
 
 /*--------------------------------------------------------------------------------TOUR PAGE*/
 
+.tour-location-header {
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
 .tour-location {
     height: 100%;
     width: 100%;
@@ -522,6 +580,14 @@ textarea {
 
 /*--------------------------------------------------------------------------------LISTEN PAGE*/
 
+.background-wrapper-listen-small {
+    background-image: url(/assets/images/black-smoke.jpg);
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    
+    
+}
+
 .album-box {
     width: 100%;
     margin: 0 auto;
@@ -537,7 +603,7 @@ textarea {
 .album-container {
     height: 100%;
     width: 100%;
-    background-image: url(/assets/images/guitar1.jpg);
+    background-color:black;
     text-align: center;
     padding-top: 50px;
 }
@@ -545,7 +611,8 @@ textarea {
 .album-container-1 {
     height: 100%;
     width: 100%;
-    background-image: url(/assets/images/guitar2.jpg);
+    
+    background-size: 100% 100%;
     text-align: center;
     padding-top: 50px;
 }
@@ -553,7 +620,8 @@ textarea {
 .album-container-2 {
     height: 100%;
     width: 100%;
-    background-image: url(/assets/images/guitar3.jpg);
+   
+    background-size: 100% 100%;
     text-align: center;
     padding-top: 50px;
 }
@@ -561,15 +629,18 @@ textarea {
 .album-container-3 {
     height: 100%;
     width: 100%;
-    background-image: url(/assets/images/guitar4.jpg);
+    
+    background-size: 100% 100%;
     text-align: center;
     padding-top: 50px;
+   
 }
 
 .album-container-4 {
     height: 100%;
     width: 100%;
-    background-image: url(/assets/images/guitar5.jpg);
+    
+    background-size: 100% 100%;
     text-align: center;
     padding-top: 50px;
 }
@@ -577,7 +648,8 @@ textarea {
 .album-container-5 {
     height: 100%;
     width: 100%;
-    background-image: url(/assets/images/guitar6.jpg);
+    
+    background-size: 100% 100%;
     text-align: center;
     padding-top: 50px;
 }
@@ -585,7 +657,8 @@ textarea {
 .album-container-6 {
     height: 100%;
     width: 100%;
-    background-image: url(/assets/images/guitar7.jpg);
+    
+    background-size: 100% 100%;
     text-align: center;
     padding-top: 50px;
 }
@@ -593,7 +666,8 @@ textarea {
 .album-container-7 {
     height: 100%;
     width: 100%;
-    background-image: url(/assets/images/guitar8.jpg);
+    
+    background-size: 100% 100%;
     text-align: center;
     padding-top: 50px;
 }
@@ -601,8 +675,8 @@ textarea {
 .track-listing {
     text-decoration: none;
     text-align: left;
-    font-size:18px;
-    font-weight:900;
+    font-size: 18px;
+    font-weight: 900;
 
 }
 
@@ -650,6 +724,16 @@ textarea {
 }
 
 @media only screen and (min-width: 768px) {
+    .tour-location-header {
+        width: 100%;
+        background-image: url(/assets/images/whiskey.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        text-align: center;
+        padding-top: 50px;
+
+    }
+
     .tour-location {
         height: 50vh;
         width: 100%;
@@ -783,10 +867,16 @@ textarea {
         margin: 0 auto;
     }
     .track-listing {
-    text-decoration: none;
-    text-align: left;
-    font-size:16px;
-    font-weight:200;
+        text-decoration: none;
+        text-align: left;
+        font-size: 16px;
+        font-weight: 200;
 
+    }
+    
+    .standard-color-style-3 {
+    color: #777;
+    letter-spacing: 5px
+    
 }
 }
