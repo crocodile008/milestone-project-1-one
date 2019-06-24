@@ -125,6 +125,11 @@ textarea {
     height: 50px;
 }
 
+.spacing {
+    height:50px;
+    background-color:black;
+}
+
 /*------------------------------------------------------------------------------- GENERAL BUTTON STYLE*/
 
 .homepage-ticket-btn {
