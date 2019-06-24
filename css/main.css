@@ -109,7 +109,6 @@ a:hover {
 .standard-color-style-3 {
     color: ghostwhite;
     letter-spacing: 5px
-    
 }
 
 button,
@@ -518,7 +517,7 @@ textarea {
 .tour-location-header {
     height: 100%;
     width: 100%;
-    background-color:black;
+    background-color: black;
     background-size: 100% 100%;
     text-align: center;
     padding-top: 50px;
@@ -581,9 +580,17 @@ textarea {
 /*--------------------------------------------------------------------------------LISTEN PAGE*/
 
 .background-wrapper-listen-small {
-    background-image: url(/assets/images/black-smoke.jpg);
+    background-image: url(/assets/images/spotlight-2.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+
+
+}
+
+.background-wrapper-listen-small-1 {
+    background-image: url(/assets/images/spotlight-4.jpg);
     background-size:100% 100%;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     
     
 }
@@ -603,7 +610,7 @@ textarea {
 .album-container {
     height: 100%;
     width: 100%;
-    background-color:black;
+    
     text-align: center;
     padding-top: 50px;
 }
@@ -611,7 +618,6 @@ textarea {
 .album-container-1 {
     height: 100%;
     width: 100%;
-    
     background-size: 100% 100%;
     text-align: center;
     padding-top: 50px;
@@ -620,7 +626,6 @@ textarea {
 .album-container-2 {
     height: 100%;
     width: 100%;
-   
     background-size: 100% 100%;
     text-align: center;
     padding-top: 50px;
@@ -629,17 +634,15 @@ textarea {
 .album-container-3 {
     height: 100%;
     width: 100%;
-    
     background-size: 100% 100%;
     text-align: center;
     padding-top: 50px;
-   
+
 }
 
 .album-container-4 {
     height: 100%;
     width: 100%;
-    
     background-size: 100% 100%;
     text-align: center;
     padding-top: 50px;
@@ -648,7 +651,6 @@ textarea {
 .album-container-5 {
     height: 100%;
     width: 100%;
-    
     background-size: 100% 100%;
     text-align: center;
     padding-top: 50px;
@@ -657,7 +659,6 @@ textarea {
 .album-container-6 {
     height: 100%;
     width: 100%;
-    
     background-size: 100% 100%;
     text-align: center;
     padding-top: 50px;
@@ -666,7 +667,6 @@ textarea {
 .album-container-7 {
     height: 100%;
     width: 100%;
-    
     background-size: 100% 100%;
     text-align: center;
     padding-top: 50px;
@@ -873,10 +873,9 @@ textarea {
         font-weight: 200;
 
     }
-    
+
     .standard-color-style-3 {
-    color: #777;
-    letter-spacing: 5px
-    
-}
+        color: #777;
+        letter-spacing: 5px
+    }
 }
