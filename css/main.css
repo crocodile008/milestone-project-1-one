@@ -130,6 +130,10 @@ textarea {
     background-color: black;
 }
 
+.center-align {
+    text-align:center;
+}
+
 /*------------------------------------------------------------------------------- GENERAL BUTTON STYLE*/
 
 .homepage-ticket-btn {
