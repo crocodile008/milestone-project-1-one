@@ -689,6 +689,15 @@ textarea {
     height: 12px;
 }
 
+/*--------------------------------------------------------------------------------WATCH PAGE*/
+
+.iframe-video-wrapper {
+    height:320px;
+    width:100%;
+    margin-left:10px;
+    margin-bottom:10px;
+}
+
 /*--------------------------------------------------------------------------------MEDIA QUERIES*/
 
 @media only screen and (min-width: 768px) {
