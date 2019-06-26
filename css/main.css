@@ -126,8 +126,8 @@ textarea {
 }
 
 .spacing {
-    height:50px;
-    background-color:black;
+    height: 50px;
+    background-color: black;
 }
 
 /*------------------------------------------------------------------------------- GENERAL BUTTON STYLE*/
@@ -586,7 +586,7 @@ textarea {
 
 .background-wrapper-listen-small {
     background-image: url(/assets/images/spotlight-2.jpg);
-    background-size:100%;
+    background-size: 100%;
     background-repeat: no-repeat;
 
 
@@ -594,10 +594,10 @@ textarea {
 
 .background-wrapper-listen-small-1 {
     background-image: url(/assets/images/spotlight-4.jpg);
-    background-size:100% 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    
-    
+
+
 }
 
 .album-box {
@@ -615,7 +615,7 @@ textarea {
 .album-container {
     height: 100%;
     width: 100%;
-    
+
     text-align: center;
     padding-top: 50px;
 }
@@ -692,10 +692,20 @@ textarea {
 /*--------------------------------------------------------------------------------WATCH PAGE*/
 
 .iframe-video-wrapper {
-    height:320px;
-    width:100%;
-    margin-left:10px;
-    margin-bottom:10px;
+    height: 320px;
+    width: 100%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.background-wrapper-watch-small {
+    background-image: url(/assets/images/spotlight-4.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.video-text {
+    color:white;
 }
 
 /*--------------------------------------------------------------------------------MEDIA QUERIES*/
@@ -891,5 +901,51 @@ textarea {
     .standard-color-style-3 {
         color: #777;
         letter-spacing: 5px
+    }
+    .video-container {
+        height: 100%;
+        width: 100%;
+        background-image: url(/assets/images/caleb-background.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .video-container-1 {
+        height: 100%;
+        width: 100%;
+        background-image: url(/assets/images/caleb-background.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .video-container-2 {
+        height: 100%;
+        width: 100%;
+        background-image: url(/assets/images/caleb-background.jpg);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .video-container-3 {
+        height: 100%;
+        width: 100%;
+        background-image: url(/assets/images/caleb-background.jpg);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .video-container-4 {
+        height: 100%;
+        width: 100%;
+        background-image: url(/assets/images/caleb-background.jpg);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        text-align: center;
+        padding-top: 50px;
     }
 }
